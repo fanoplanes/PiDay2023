@@ -40,7 +40,7 @@ int main(int argc, char** argv)
 		sin_tmp = sin;
 		cos_tmp = cos;
 	}
-	printf("%f\n",input2);
+	
 	printf("sin(%.6f) = %.6f\n",input , (first_sign_flag ^ second_sign_flag) ? -sin : sin);
 	printf("cos(%.6f) = %.6f\n",input , cos);
 	printf("tan(%.6f) = %.6f\n",input , (first_sign_flag ^ second_sign_flag) ? -(sin/cos) : sin/cos);
